@@ -42,30 +42,30 @@ h2, h3 {
   background-color: #fff;
   color: #000;
   width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
-.navbar > ul{
+.header-right-action {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  list-style: none;
-  padding: 0;
-  gap: 32px;
-  width: 610px;
-  margin-top: 10.9px;
-  margin-left: 490px;
 }
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+}
+
 
 .navbar > ul > li > a{
   font-size: 13px;
   font-weight: 500;
   line-height: 15px;
   letter-spacing: 1px;
-  text-align: left;
   color: #000;
   text-decoration: none;
-  list-style: none;
 }
 
 /* Main part first section */
@@ -73,6 +73,10 @@ h2, h3 {
   background-color: #252420;
   margin-top: 97px;
   width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .info-box {
@@ -114,8 +118,7 @@ letter-spacing: 0.5px;
 }
 .features {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
   padding: 0;
   gap: 50px;
   width: 1100px;
@@ -155,6 +158,9 @@ letter-spacing: 0.5px;
 
 /* Sale section  */
 .third-sc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   width: 1100px;
   margin-left: 157px;
@@ -206,7 +212,6 @@ background-color: #f8f8f8;
 }
 .footer-head {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0;
@@ -219,7 +224,6 @@ background-color: #f8f8f8;
 
 .social-networks {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
@@ -240,7 +244,6 @@ background-color: #f8f8f8;
 
 .info-links {
 display: flex;
-flex-direction: row;
 align-items: flex-start;
 padding: 0;
 gap: 68px;
