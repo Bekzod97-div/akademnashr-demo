@@ -25,6 +25,7 @@ h2, h3 {
   padding: 12px 24px;
   background-color: #ff7500;
   border: none;
+  transition: opacity 0.4s ease;
 
 }
 .primary-button > a {
@@ -32,11 +33,28 @@ h2, h3 {
   text-decoration: none;
 }
 
+.primary-button:hover {
+  background: #ff7500;
+  opacity: 0.8;
+}
+.primary-button:active {
+  opacity: 0.6;
+}
+
 /* Header section */
 .divider-lg {
   background-color: #ff7500;
   border: 2px solid #ff7500;
   width: 1440px;
+}
+.logo {
+  transition: opacity 0.4s ease;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: o.6;
 }
 .head-part {
   background-color: #fff;
@@ -48,6 +66,7 @@ h2, h3 {
 
 }
 
+
 .header-right-action {
   display: flex;
   align-items: center;
@@ -58,15 +77,22 @@ h2, h3 {
   list-style: none;
 }
 
-
-.navbar > ul > li > a{
+.navbar > ul > li > a {
   font-size: 13px;
   font-weight: 500;
   line-height: 15px;
   letter-spacing: 1px;
   color: #000;
   text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
 }
+.navbar > ul > li > a:hover {
+  color: #ff7500;
+}
+
+
 
 /* Main part first section */
 .first-sc {
@@ -231,6 +257,19 @@ background-color: #f8f8f8;
   width: 104px;
   list-style: none;
 }
+.social-networks > li > a{
+  color: #252420;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+.social-networks > li > a:hover {
+  color: #ff7500;
+}
+.social-networks > li > a:active {
+  opacity: 0.6;
+}
+.social-networks > li > a:focus {
+  opacity: 0.6;
+}
 
 .line {
   position: absolute;
@@ -266,4 +305,10 @@ a[class="info-links-li"] {
 
 a[class="info-links-li"]:hover {
   color: #ff7500;
+}
+a[class="info-links-li"]:active {
+  opacity: 0.6;
+}
+a[class="info-links-li"]:focus {
+  opacity: 0.6;
 }
