@@ -51,6 +51,10 @@ h2, h3 {
 
 /* Header section */
 .logo {
+  margin-right: 382px;
+  margin-left: 170px;
+}
+.logo {
   transition: opacity 0.4s ease;
 }
 .logo:hover {
@@ -69,19 +73,13 @@ h2, h3 {
   padding: 16px;
 
 }
-.logo, .header-right-action {
-  gap: 382px;
-}
-
-
-.header-right-action {
-  display: flex;
-  align-items: center;
-}
 
 .navbar > ul {
   display: flex;
+  align-items: center;
   list-style: none;
+  margin: 0;
+  margin-right: 32px;
 }
 
 .navbar > ul > li > a {
@@ -99,6 +97,17 @@ h2, h3 {
 .navbar > ul > li > a:hover {
   color: #ff7500;
 }
+.sitenav-item {
+  margin-right: 32px;
+}
+.sitenav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -114,19 +123,40 @@ h2, h3 {
 }
 
 .info-box {
+width: 387px;
 background-color: inherit;
 color: #fff;
+margin: 0;
+margin-left: 170px;
+margin-right: 203px;
+}
+.orange-line {
+  width: 80px;
+  height: 3px;
+  border: none;
+  background-color: #ff7500;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .header-info-box {
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.info-box-description {
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 32px;
+
 }
 
 .first-sc-img {
 width: 510px;
 height: 510px;
-border-radius: 8px;
+border-radius: 12px;
+margin: 0;
 }
 
 /* Features */
@@ -135,11 +165,16 @@ border-radius: 8px;
   max-width: 1440px;
   padding: 210px 0;
 }
+.features-box {
+  margin: 0;
+  margin-left: 170px;
+
+}
 
 .heading-md {
 width: 435px;
-margin-top: 237px;
-margin-left: 170px;
+margin: 0;
+margin-bottom: 72px;
 font-size: 72px;
 line-height: 1.2;
 letter-spacing: 0.5px;
@@ -147,19 +182,24 @@ letter-spacing: 0.5px;
 .features {
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  gap: 50px;
   width: 1100px;
 }
-.features > li {
-  font-family: sans-serif;
+.features-list {
   color: #000;
   list-style: none;
   width: 340px;
+  margin: 0;
+  margin-right: 40px;
+}
+.features-list:last-child {
+  margin-right: 0;
 }
 .icon {
   width: 100px;
   height: 100px;
+  margin: 0;
+  margin-bottom: 32px;
+
 }
 .heading-sl {
   width: 214px;
@@ -168,6 +208,7 @@ letter-spacing: 0.5px;
   line-height: 28.8px;
   letter-spacing: 0.4px;
   font-style: normal;
+  margin-bottom: 12px;
 }
 
 .features > li > p {
@@ -186,34 +227,40 @@ letter-spacing: 0.5px;
   align-items: center;
   background-color: #252420;
   border-radius: 12px;
+  margin: 0 170px 170px 98px;
 }
 
 .info-sale {
   background-color: inherit;
   width: 440px;
-  margin: 64px;
   color: #fff;
-  font-family: sans-serif;
-  font-style: normal;
-  letter-spacing: 0.5px;
+  margin-left: 64px;
+  margin-right: 92px;
 }
 
 .heading-sale {
   width: 373px;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+
+.sale-text {
+  margin-bottom: 12px;
+}
+.sale-btn {
+  margin-top: 24px;
 }
 
 .sale-img {
   width: 440px;
   height: 440px;
   border-radius: 12px;
+  margin-right: 64px;
 }
 
 .sale-highlight {
   color: #ff7500;
-  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -233,11 +280,16 @@ padding: 56px 0;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  margin: 0;
   gap: 353px;
   width: 1100px;
-  margin-top: 56px;
-  margin-left: 170px;
+  margin-top: 26px;
+  margin-left: 160px;
+  margin-bottom: 40px;
 
+}
+.footer-logo {
+  margin: 0;
 }
 
 .social-networks {
@@ -245,7 +297,7 @@ padding: 56px 0;
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 16px;
+  gap: 18px;
   width: 104px;
   list-style: none;
 }
@@ -264,10 +316,12 @@ padding: 56px 0;
 }
 
 .line {
-  position: absolute;
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+  margin: 0;
+  margin-bottom: 64px;
+  margin-left: 160px;
 
 }
 
@@ -275,10 +329,14 @@ padding: 56px 0;
 display: flex;
 align-items: flex-start;
 padding: 0;
-gap: 68px;
+margin: 0;
+margin-left: 160px;
+margin-bottom: 53px;
 }
 .info-links > ul {
 list-style: none;
+margin-right: 68px;
+width: 224px;
 }
 
 a[class="info-links-li"] {
