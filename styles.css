@@ -302,8 +302,12 @@ padding: 56px 0;
   list-style: none;
 }
 .social-networks > li > a{
+  display: block;
   color: #252420;
   transition: color 0.4s ease, opacity 0.4s ease;
+}
+.social-networks svg {
+  display: block;
 }
 .social-networks > li > a:hover {
   color: #ff7500;
@@ -337,6 +341,10 @@ margin-bottom: 53px;
 list-style: none;
 margin-right: 68px;
 width: 224px;
+}
+
+.info-links > ul:last-child {
+  margin-right: 0;
 }
 
 a[class="info-links-li"] {
