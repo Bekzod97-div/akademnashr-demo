@@ -51,12 +51,12 @@ h2, h3 {
 
 /* Header section */
 .logo {
+  display: block;
   margin-right: 382px;
   margin-left: 170px;
-}
-.logo {
   transition: opacity 0.4s ease;
 }
+
 .logo:hover {
   opacity: 0.8;
 }
