@@ -53,7 +53,7 @@ h2, h3 {
 .logo {
   display: block;
   margin-right: 382px;
-  margin-left: 170px;
+  padding-left: 170px;
   transition: opacity 0.4s ease;
 }
 
@@ -127,7 +127,7 @@ width: 387px;
 background-color: inherit;
 color: #fff;
 margin: 0;
-margin-left: 170px;
+padding-left: 170px;
 margin-right: 203px;
 }
 .orange-line {
@@ -167,7 +167,7 @@ margin: 0;
 }
 .features-box {
   margin: 0;
-  margin-left: 170px;
+  padding-left: 170px;
 
 }
 
@@ -234,7 +234,7 @@ letter-spacing: 0.5px;
   background-color: inherit;
   width: 440px;
   color: #fff;
-  margin-left: 64px;
+  padding-left: 64px;
   margin-right: 92px;
 }
 
@@ -256,7 +256,7 @@ letter-spacing: 0.5px;
   width: 440px;
   height: 440px;
   border-radius: 12px;
-  margin-right: 64px;
+  padding-right: 64px;
 }
 
 .sale-highlight {
@@ -289,7 +289,16 @@ padding: 56px 0;
 
 }
 .footer-logo {
-  margin: 0;
+  display: block;
+  margin-right: 382px;
+  transition: opacity 0.4s ease;
+}
+
+.footer-logo:hover {
+  opacity: 0.8;
+}
+.footer-logo:active {
+  opacity: 0.6;
 }
 
 .social-networks {
@@ -334,7 +343,7 @@ display: flex;
 align-items: flex-start;
 padding: 0;
 margin: 0;
-margin-left: 160px;
+padding-left: 160px;
 margin-bottom: 53px;
 }
 .info-links > ul {
