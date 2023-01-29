@@ -145,10 +145,12 @@ h2, h3 {
 
 /* Main part first section */
 .first-sc {
+  position: relative;
   background-color: #252420;
   margin-top: 97px;
   width: 1440px;
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
 }
 .first-sc-container {
@@ -187,6 +189,9 @@ margin-right: 203px;
 }
 
 .first-sc-img {
+  position: absolute;
+  top: 29px;
+  right: 170px;
 width: 510px;
 height: 510px;
 border-radius: 12px;
@@ -252,22 +257,23 @@ letter-spacing: 0.5px;
 
 /* Sale section  */
 .third-sc {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
   border-radius: 12px;
   margin-bottom: 98px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 64px;
 }
 
 .info-sale {
   background-color: inherit;
   width: 440px;
   color: #fff;
-  padding-left: 64px;
   margin-right: 92px;
-  margin-bottom: 80px;
-  margin-top: 40px;
 }
 
 .heading-sale {
@@ -285,10 +291,12 @@ letter-spacing: 0.5px;
 }
 
 .sale-img {
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px;
-  margin-right: 64px;
 }
 
 .sale-highlight {
